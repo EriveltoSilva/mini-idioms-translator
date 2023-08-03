@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f8f4f4;
+}
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea{
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    resize: none;
+    border: 0.5px solid #e1e1e1; 
+}
+
+.bloco{
+    display: block;
+}
+
+#progresso{
+    color: greenyellow;
+    background-color:greenyellow;
+    width: 0%;
+}
+.contentor-progresso
+{
+    width: 90%;
+    display: none;
+}
+
+.card{
+    width: 400px;
+}
