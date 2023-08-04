@@ -8,9 +8,6 @@ const altoFalantePara = document.getElementById("altoFalantePara");
 const copiarDe = document.getElementById("copiarDe");
 const copiarPara = document.getElementById("copiarPara");
 
-window.addEventListener("load", ()=>{
-    setInterval(traduzir,3000);
-})
 
 selectTag.forEach((tag, id) =>{
     for(let codigoPais in paises){
